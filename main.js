@@ -63,5 +63,5 @@ let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
         campoPalpite.value = "";
         campoPalpite.focus();
         ultimoResultado.style.backgroundColor = 'white';
-        numeroAleatorio = Math. floor(Math.random() * 100) + 1;
+        numeroAleatorio = Math.floor(Math.random() * 100) + 1;
     }
