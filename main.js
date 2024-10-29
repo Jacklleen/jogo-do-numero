@@ -60,7 +60,7 @@ let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
             paragrafoReiniciar.textContent = " ";
         }
 
-        botaoReiniciar.parentNote.removeChild(botaoReiniciar);
+        botaoReiniciar.parentNode.removeChild(botaoReiniciar);
         campoPalpite.disabled = false;
         envioPalpite.disabled = false;
         campoPalpite.value = " ";
