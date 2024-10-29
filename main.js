@@ -46,6 +46,9 @@ let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
         envioPalpite.disabled = true;
         botaoReiniciar = document.createElement('button');
         document.body.appendChild(botaoReiniciar);
+        botaoReiniciar.textContent = "Reiniciar Jogo";
+        botaoReiniciar.classList.add('botoaReiniciar');
+        document.body.appendChild(botaoReiniciar);
         botaoReiniciar.addEventListener('click', reiniciarJogo);
     }
 
