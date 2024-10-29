@@ -47,7 +47,7 @@ let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
         botaoReiniciar = document.createElement('button');
         document.body.appendChild(botaoReiniciar);
         botaoReiniciar.textContent = "Reiniciar Jogo";
-        botaoReiniciar.classList.add('botoaReiniciar');
+        botaoReiniciar.classList.add('botaoReiniciar');
         document.body.appendChild(botaoReiniciar);
         botaoReiniciar.addEventListener('click', reiniciarJogo);
     }
